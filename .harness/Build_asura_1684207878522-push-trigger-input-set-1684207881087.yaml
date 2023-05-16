@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_asura_1684207878522-push-trigger-input-set
+  identifier: Build_asura_1684207878522pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: asura
+  pipeline:
+    identifier: Build_asura_1684207878522
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
